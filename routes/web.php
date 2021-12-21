@@ -15,4 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('omikuji.home');
+
+Route::get('/draw','App\Http\Controllers\OmikujiController@draw')->name('omikuji.draw');

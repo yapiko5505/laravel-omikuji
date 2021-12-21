@@ -25,16 +25,16 @@
 
         <div class="content">
             <div class="text-black-50 mt-3">
-                <h1>おみくじんじゃ</h1>
+                <h1>あなたの運勢は{{$result}}です。</h1>
             </div>
 
             <div class="mt-5">
-              <img alt = "ロゴ" src='{{asset("/img/tatemono_jinja.png")}}'>
+              <img alt = "ロゴ" src='{{asset("/img/$result_img")}}'>
             </div>
 
             <div class="mt-3">
-              <a href="{{ route('omikuji.draw') }}" class="btn btn-outline-secondary">
-                おみくじを引く
+              <a href="{{ route('omikuji.home') }}" class="btn btn-outline-secondary">
+                おみくじじんじゃHOMEへ戻る
               </a>
             </div>
         </div>
