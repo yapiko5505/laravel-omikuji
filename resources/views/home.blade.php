@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>おみくじんじゃHOME</title>
+        <title>おみくじじんじゃHOME</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -25,7 +25,7 @@
 
         <div class="content">
             <div class="text-black-50 mt-3">
-                <h1>おみくじんじゃ</h1>
+                <h1>おみくじじんじゃ</h1>
             </div>
 
             <div class="mt-5">
